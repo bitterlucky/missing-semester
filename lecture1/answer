@@ -1,0 +1,16 @@
+2.
+mkdir tmp
+cd tmp
+mkdir missing
+3.
+man touch
+4.cd missing
+touch semester
+5.
+echo '#!/bin/sh' >> semester
+echo 'curl --head --silent https://missing.csail.mit.edu' >> semester
+7.man chmod
+9.
+./semester | grep last-modified > ../../last-modified.txt
+10.
+cat /sys/class/power_supply/BAT1/capacity
