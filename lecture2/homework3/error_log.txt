@@ -1,0 +1,4 @@
+-bash: ./: Is a directory
+-bash: ./: Is a directory
+-bash: ./: Is a directory
+-bash: ./: Is a directory
