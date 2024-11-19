@@ -1,0 +1,4 @@
+log show --predicate 'eventMessage contains "previous shutdown"' --info | tail -n 10 > boot_times.txt
+log show --predicate 'eventMessage contains "shutdown"' --info | tail -n 10 > shutdown_times.txt
+
+
